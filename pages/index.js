@@ -1,5 +1,5 @@
 import Head  from 'next/head';
-
+import  *as styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Phiwa | Home</title>
       </Head>
-      <header>
+      <header className={styles.header}>
         
       </header>
     </>
